@@ -1,0 +1,15 @@
+<form [ngFormModel]="partiesForm" #f="ngForm" (submit)="addParty(f.value)">
+  <fieldset class='form-group'>
+    <label>Name</label>
+    <input class="form-control" type="text" ngControl="name">
+  </fieldset>
+  <fieldset class='form-group'>
+    <label>Description</label>
+    <input class="form-control" type="text" ngControl="description">
+  </fieldset>
+  <fieldset class='form-group'>
+    <label>Location</label>
+    <input class="form-control" type="text" ngControl="location">
+  </fieldset>
+  <button type="submit" class="btn btn-primary">Add</button>
+</form>

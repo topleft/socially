@@ -1,0 +1,421 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@angular/router-deprecated',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose install initial load of /Users/peterjeffryes/Documents/socially/package.json
+5 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/angular2-meteor/package.json
+6 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/es6-shim/package.json
+7 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/reflect-metadata/package.json
+8 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/rxjs/package.json
+9 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/zone.js/package.json
+10 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/@angular/common/package.json
+11 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/@angular/compiler/package.json
+12 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/@angular/core/package.json
+13 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/@angular/platform-browser/package.json
+14 verbose installManyTop reading scoped package data from /Users/peterjeffryes/Documents/socially/node_modules/@angular/platform-browser-dynamic/package.json
+15 info package.json @angular/common@2.0.0-rc.3 No description
+16 info package.json @angular/common@2.0.0-rc.3 No README data
+17 info package.json @angular/compiler@2.0.0-rc.3 No description
+18 info package.json @angular/compiler@2.0.0-rc.3 No README data
+19 info package.json @angular/platform-browser@2.0.0-rc.3 No description
+20 info package.json @angular/platform-browser@2.0.0-rc.3 No README data
+21 info package.json @angular/core@2.0.0-rc.3 No description
+22 info package.json @angular/core@2.0.0-rc.3 No README data
+23 info package.json @angular/platform-browser-dynamic@2.0.0-rc.3 No description
+24 info package.json @angular/platform-browser-dynamic@2.0.0-rc.3 No README data
+25 verbose readDependencies loading dependencies from /Users/peterjeffryes/Documents/socially/package.json
+26 silly cache add args [ '@angular/router-deprecated', null ]
+27 verbose cache add spec @angular/router-deprecated
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: '@angular/router-deprecated',
+28 silly cache add   scope: '@angular',
+28 silly cache add   name: '@angular/router-deprecated',
+28 silly cache add   rawSpec: '',
+28 silly cache add   spec: 'latest',
+28 silly cache add   type: 'tag' }
+29 silly addNamed @angular/router-deprecated@latest
+30 verbose addNamed "latest" is being treated as a dist-tag for @angular/router-deprecated
+31 info addNameTag [ '@angular/router-deprecated', 'latest' ]
+32 silly mapToRegistry name @angular/router-deprecated
+33 silly mapToRegistry scope (from package name) @angular
+34 verbose mapToRegistry no registry URL found in name for scope @angular
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter-deprecated
+38 verbose addNameTag registry:https://registry.npmjs.org/@angular%2frouter-deprecated not in flight; fetching
+39 verbose request uri https://registry.npmjs.org/@angular%2frouter-deprecated
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 7:34:55 AM
+42 verbose request id 577d70c85195588a
+43 http request GET https://registry.npmjs.org/@angular%2frouter-deprecated
+44 http 200 https://registry.npmjs.org/@angular%2frouter-deprecated
+45 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+45 verbose headers   etag: '"4N3WIBBPFSIBA83WA7GKRUC7Z"',
+45 verbose headers   'content-type': 'application/json',
+45 verbose headers   'content-encoding': 'gzip',
+45 verbose headers   'cache-control': 'max-age=0',
+45 verbose headers   'transfer-encoding': 'chunked',
+45 verbose headers   'accept-ranges': 'bytes',
+45 verbose headers   date: 'Wed, 22 Jun 2016 13:34:55 GMT',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   age: '0',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'x-served-by': 'cache-sjc3131-SJC',
+45 verbose headers   'x-cache': 'MISS',
+45 verbose headers   'x-cache-hits': '0',
+45 verbose headers   'x-timer': 'S1466602495.608249,VS0,VE69',
+45 verbose headers   vary: 'Accept-Encoding' }
+46 silly get cb [ 200,
+46 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly get     etag: '"4N3WIBBPFSIBA83WA7GKRUC7Z"',
+46 silly get     'content-type': 'application/json',
+46 silly get     'content-encoding': 'gzip',
+46 silly get     'cache-control': 'max-age=0',
+46 silly get     'transfer-encoding': 'chunked',
+46 silly get     'accept-ranges': 'bytes',
+46 silly get     date: 'Wed, 22 Jun 2016 13:34:55 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     age: '0',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-sjc3131-SJC',
+46 silly get     'x-cache': 'MISS',
+46 silly get     'x-cache-hits': '0',
+46 silly get     'x-timer': 'S1466602495.608249,VS0,VE69',
+46 silly get     vary: 'Accept-Encoding' } ]
+47 verbose get saving @angular/router-deprecated to /Users/peterjeffryes/.npm/registry.npmjs.org/_40angular_252frouter-deprecated/.cache.json
+48 verbose correctMkdir /Users/peterjeffryes/.npm correctMkdir not in flight; initializing
+49 silly addNameTag next cb for @angular/router-deprecated with tag latest
+50 silly addNamed @angular/router-deprecated@2.0.0-rc.2
+51 verbose addNamed "2.0.0-rc.2" is a plain semver version for @angular/router-deprecated
+52 silly mapToRegistry name @angular/router-deprecated
+53 silly mapToRegistry scope (from package name) @angular
+54 verbose mapToRegistry no registry URL found in name for scope @angular
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter-deprecated
+58 verbose addRemoteTarball https://registry.npmjs.org/@angular/router-deprecated/-/router-deprecated-2.0.0-rc.2.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/router-deprecated/-/router-deprecated-2.0.0-rc.2.tgz',
+59 verbose addRemoteTarball   '6ffdf75f6090a48e9f084a15aa75e7ce1389be53' ]
+60 info retry fetch attempt 1 at 7:34:55 AM
+61 info attempt registry request try #1 at 7:34:55 AM
+62 http fetch GET https://registry.npmjs.org/@angular/router-deprecated/-/router-deprecated-2.0.0-rc.2.tgz
+63 http fetch 200 https://registry.npmjs.org/@angular/router-deprecated/-/router-deprecated-2.0.0-rc.2.tgz
+64 silly fetchAndShaCheck shasum 6ffdf75f6090a48e9f084a15aa75e7ce1389be53
+65 verbose addTmpTarball /var/folders/m5/nj3znt8d2pj5bl7gv7g1w4m00000gn/T/npm-81122-5aae1b0d/registry.npmjs.org/_40angular/router-deprecated/-/router-deprecated-2.0.0-rc.2.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for @angular/router-deprecated@2.0.0-rc.2
+67 verbose correctMkdir /Users/peterjeffryes/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd @angular/router-deprecated@2.0.0-rc.2
+69 verbose afterAdd /Users/peterjeffryes/.npm/@angular/router-deprecated/2.0.0-rc.2/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/peterjeffryes/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/peterjeffryes/.npm/@angular/router-deprecated/2.0.0-rc.2/package/package.json written
+72 silly install resolved [ { name: '@angular/router-deprecated',
+72 silly install resolved     version: '2.0.0-rc.2',
+72 silly install resolved     description: '',
+72 silly install resolved     main: 'index.js',
+72 silly install resolved     'jsnext:main': 'esm/index.js',
+72 silly install resolved     typins: 'index.d.ts',
+72 silly install resolved     author: { name: 'angular' },
+72 silly install resolved     license: 'MIT',
+72 silly install resolved     peerDependencies:
+72 silly install resolved      { '@angular/core': '^2.0.0-rc',
+72 silly install resolved        '@angular/common': '^2.0.0-rc',
+72 silly install resolved        '@angular/platform-browser': '^2.0.0-rc' },
+72 silly install resolved     repository:
+72 silly install resolved      { type: 'git',
+72 silly install resolved        url: 'git+https://github.com/angular/angular.git' },
+72 silly install resolved     bugs: { url: 'https://github.com/angular/angular/issues' },
+72 silly install resolved     homepage: 'https://github.com/angular/angular#readme',
+72 silly install resolved     _id: '@angular/router-deprecated@2.0.0-rc.2',
+72 silly install resolved     scripts: {},
+72 silly install resolved     _shasum: '6ffdf75f6090a48e9f084a15aa75e7ce1389be53',
+72 silly install resolved     _from: '@angular/router-deprecated@latest',
+72 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular/router-deprecated/-/router-deprecated-2.0.0-rc.2.tgz',
+72 silly install resolved     _npmVersion: '3.9.2',
+72 silly install resolved     _nodeVersion: '5.4.1',
+72 silly install resolved     _npmUser: { name: 'angular', email: 'angular-core+npm@google.com' },
+72 silly install resolved     dist:
+72 silly install resolved      { shasum: '6ffdf75f6090a48e9f084a15aa75e7ce1389be53',
+72 silly install resolved        tarball: 'https://registry.npmjs.org/@angular/router-deprecated/-/router-deprecated-2.0.0-rc.2.tgz' },
+72 silly install resolved     maintainers: [ [Object] ],
+72 silly install resolved     _npmOperationalInternal:
+72 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+72 silly install resolved        tmp: 'tmp/router-deprecated-2.0.0-rc.2.tgz_1466015704080_0.16310800914652646' },
+72 silly install resolved     directories: {} } ]
+73 info install @angular/router-deprecated@2.0.0-rc.2 into /Users/peterjeffryes/Documents/socially
+74 info installOne @angular/router-deprecated@2.0.0-rc.2
+75 verbose installOne of @angular/router-deprecated to /Users/peterjeffryes/Documents/socially not in flight; installing
+76 verbose correctMkdir /Users/peterjeffryes/.npm/_locks correctMkdir not in flight; initializing
+77 verbose lock using /Users/peterjeffryes/.npm/_locks/angular-router-deprecate-f2866d511428923a.lock for /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated
+78 silly install write writing @angular/router-deprecated 2.0.0-rc.2 to /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated
+79 verbose unbuild node_modules/@angular/router-deprecated
+80 silly gentlyRm /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated is being purged from base /Users/peterjeffryes/Documents/socially
+81 verbose gentlyRm don't care about contents; nuking /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated
+82 verbose tar unpack /Users/peterjeffryes/.npm/@angular/router-deprecated/2.0.0-rc.2/package.tgz
+83 verbose tar unpacking to /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated
+84 silly gentlyRm /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated is being purged
+85 verbose gentlyRm don't care about contents; nuking /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated
+86 silly gunzTarPerm modes [ '755', '644' ]
+87 silly gunzTarPerm extractEntry package.json
+88 silly gunzTarPerm extractEntry core_private.js
+89 silly gunzTarPerm extractEntry index.js
+90 silly gunzTarPerm extractEntry router.js
+91 silly gunzTarPerm extractEntry testing.js
+92 silly gunzTarPerm extractEntry index.d.ts
+93 silly gunzTarPerm extractEntry bundles/router-deprecated.umd.js
+94 silly gunzTarPerm extractEntry bundles/router-deprecated.umd.min.js
+95 silly gunzTarPerm extractEntry index.js.map
+96 silly gunzTarPerm extractEntry core_private.d.ts
+97 silly gunzTarPerm extractEntry router.d.ts
+98 silly gunzTarPerm extractEntry core_private.js.map
+99 silly gunzTarPerm extractEntry router.js.map
+100 silly gunzTarPerm extractEntry src/instruction.js
+101 silly gunzTarPerm extractEntry src/interfaces.js
+102 silly gunzTarPerm extractEntry src/route_definition.js
+103 silly gunzTarPerm extractEntry src/route_registry.js
+104 silly gunzTarPerm extractEntry src/router.js
+105 silly gunzTarPerm extractEntry src/router_providers.js
+106 silly gunzTarPerm extractEntry src/router_providers_common.js
+107 silly gunzTarPerm extractEntry src/url_parser.js
+108 silly gunzTarPerm extractEntry src/utils.js
+109 silly gunzTarPerm extractEntry src/router.d.ts
+110 silly gunzTarPerm extractEntry src/route_definition.d.ts
+111 silly gunzTarPerm extractEntry src/directives/router_link.js
+112 silly gunzTarPerm extractEntry src/directives/router_outlet.js
+113 silly gunzTarPerm extractEntry src/directives/router_link.d.ts
+114 silly gunzTarPerm extractEntry src/directives/router_link.js.map
+115 silly gunzTarPerm extractEntry src/directives/router_outlet.d.ts
+116 silly gunzTarPerm extractEntry src/directives/router_outlet.js.map
+117 silly gunzTarPerm extractEntry src/route_definition.js.map
+118 silly gunzTarPerm extractEntry src/route_registry.d.ts
+119 silly gunzTarPerm extractEntry src/instruction.js.map
+120 silly gunzTarPerm extractEntry src/route_registry.js.map
+121 silly gunzTarPerm extractEntry src/facade/exception_handler.js
+122 silly gunzTarPerm extractEntry src/facade/base_wrapped_exception.js
+123 silly gunzTarPerm extractEntry src/facade/collection.js
+124 silly gunzTarPerm extractEntry src/facade/async.js
+125 silly gunzTarPerm extractEntry src/facade/exceptions.js
+126 silly gunzTarPerm extractEntry src/facade/lang.js
+127 silly gunzTarPerm extractEntry src/facade/promise.js
+128 silly gunzTarPerm extractEntry src/facade/async.js.map
+129 silly gunzTarPerm extractEntry src/facade/collection.js.map
+130 silly gunzTarPerm extractEntry src/facade/exception_handler.d.ts
+131 silly gunzTarPerm extractEntry src/facade/base_wrapped_exception.d.ts
+132 silly gunzTarPerm extractEntry src/facade/exception_handler.js.map
+133 silly gunzTarPerm extractEntry src/facade/exceptions.d.ts
+134 silly gunzTarPerm extractEntry src/facade/async.d.ts
+135 silly gunzTarPerm extractEntry src/facade/exceptions.js.map
+136 silly gunzTarPerm extractEntry src/facade/lang.d.ts
+137 silly gunzTarPerm extractEntry src/facade/base_wrapped_exception.js.map
+138 silly gunzTarPerm extractEntry src/facade/lang.js.map
+139 silly gunzTarPerm extractEntry src/facade/promise.d.ts
+140 silly gunzTarPerm extractEntry src/facade/collection.d.ts
+141 silly gunzTarPerm extractEntry src/facade/promise.js.map
+142 silly gunzTarPerm extractEntry src/interfaces.d.ts
+143 silly gunzTarPerm extractEntry src/router.js.map
+144 silly gunzTarPerm extractEntry src/router_providers.d.ts
+145 silly gunzTarPerm extractEntry src/instruction.d.ts
+146 silly gunzTarPerm extractEntry src/router_providers.js.map
+147 silly gunzTarPerm extractEntry src/router_providers_common.d.ts
+148 silly gunzTarPerm extractEntry src/interfaces.js.map
+149 silly gunzTarPerm extractEntry src/router_providers_common.js.map
+150 silly gunzTarPerm extractEntry src/rules/rule_set.js
+151 silly gunzTarPerm extractEntry src/rules/rules.js
+152 silly gunzTarPerm extractEntry src/rules/route_handlers/async_route_handler.js
+153 silly gunzTarPerm extractEntry src/rules/route_handlers/route_handler.js
+154 silly gunzTarPerm extractEntry src/rules/route_handlers/sync_route_handler.js
+155 silly gunzTarPerm extractEntry src/rules/route_handlers/async_route_handler.d.ts
+156 silly gunzTarPerm extractEntry src/rules/route_handlers/async_route_handler.js.map
+157 silly gunzTarPerm extractEntry src/rules/route_handlers/route_handler.d.ts
+158 silly gunzTarPerm extractEntry src/rules/route_handlers/route_handler.js.map
+159 silly gunzTarPerm extractEntry src/rules/route_handlers/sync_route_handler.d.ts
+160 silly gunzTarPerm extractEntry src/rules/route_handlers/sync_route_handler.js.map
+161 silly gunzTarPerm extractEntry src/rules/route_paths/param_route_path.js
+162 silly gunzTarPerm extractEntry src/rules/route_paths/regex_route_path.js
+163 silly gunzTarPerm extractEntry src/rules/route_paths/route_path.js
+164 silly gunzTarPerm extractEntry src/rules/route_paths/param_route_path.d.ts
+165 silly gunzTarPerm extractEntry src/rules/route_paths/param_route_path.js.map
+166 silly gunzTarPerm extractEntry src/rules/route_paths/regex_route_path.d.ts
+167 silly gunzTarPerm extractEntry src/rules/route_paths/regex_route_path.js.map
+168 silly gunzTarPerm extractEntry src/rules/route_paths/route_path.d.ts
+169 silly gunzTarPerm extractEntry src/rules/route_paths/route_path.js.map
+170 silly gunzTarPerm extractEntry src/rules/rule_set.d.ts
+171 silly gunzTarPerm extractEntry src/rules/rule_set.js.map
+172 silly gunzTarPerm extractEntry src/rules/rules.d.ts
+173 silly gunzTarPerm extractEntry src/rules/rules.js.map
+174 silly gunzTarPerm extractEntry src/url_parser.d.ts
+175 silly gunzTarPerm extractEntry src/lifecycle/lifecycle_annotations.js
+176 silly gunzTarPerm extractEntry src/lifecycle/lifecycle_annotations_impl.js
+177 silly gunzTarPerm extractEntry src/lifecycle/route_lifecycle_reflector.js
+178 silly gunzTarPerm extractEntry src/lifecycle/lifecycle_annotations.d.ts
+179 silly gunzTarPerm extractEntry src/lifecycle/lifecycle_annotations.js.map
+180 silly gunzTarPerm extractEntry src/lifecycle/lifecycle_annotations_impl.d.ts
+181 silly gunzTarPerm extractEntry src/lifecycle/lifecycle_annotations_impl.js.map
+182 silly gunzTarPerm extractEntry src/lifecycle/route_lifecycle_reflector.d.ts
+183 silly gunzTarPerm extractEntry src/lifecycle/route_lifecycle_reflector.js.map
+184 silly gunzTarPerm extractEntry src/url_parser.js.map
+185 silly gunzTarPerm extractEntry src/utils.d.ts
+186 silly gunzTarPerm extractEntry src/route_config/route_config_decorator.js
+187 silly gunzTarPerm extractEntry src/route_config/route_config_impl.js
+188 silly gunzTarPerm extractEntry src/route_config/route_config_normalizer.js
+189 silly gunzTarPerm extractEntry src/route_config/route_config_decorator.d.ts
+190 silly gunzTarPerm extractEntry src/route_config/route_config_decorator.js.map
+191 silly gunzTarPerm extractEntry src/route_config/route_config_impl.d.ts
+192 silly gunzTarPerm extractEntry src/route_config/route_config_impl.js.map
+193 silly gunzTarPerm extractEntry src/route_config/route_config_normalizer.d.ts
+194 silly gunzTarPerm extractEntry src/route_config/route_config_normalizer.js.map
+195 silly gunzTarPerm extractEntry src/utils.js.map
+196 silly gunzTarPerm extractEntry testing.d.ts
+197 silly gunzTarPerm extractEntry esm/index.js
+198 silly gunzTarPerm extractEntry esm/core_private.js
+199 silly gunzTarPerm extractEntry esm/router.js
+200 silly gunzTarPerm extractEntry esm/testing.js
+201 silly gunzTarPerm extractEntry esm/router.d.ts
+202 silly gunzTarPerm extractEntry esm/index.js.map
+203 silly gunzTarPerm extractEntry esm/core_private.js.map
+204 silly gunzTarPerm extractEntry esm/index.d.ts
+205 silly gunzTarPerm extractEntry esm/router.js.map
+206 silly gunzTarPerm extractEntry esm/src/instruction.js
+207 silly gunzTarPerm extractEntry esm/src/interfaces.js
+208 silly gunzTarPerm extractEntry esm/src/route_definition.js
+209 silly gunzTarPerm extractEntry esm/src/route_registry.js
+210 silly gunzTarPerm extractEntry esm/src/router.js
+211 silly gunzTarPerm extractEntry esm/src/router_providers.js
+212 silly gunzTarPerm extractEntry esm/src/router_providers_common.js
+213 silly gunzTarPerm extractEntry esm/src/url_parser.js
+214 silly gunzTarPerm extractEntry esm/src/utils.js
+215 silly gunzTarPerm extractEntry esm/src/router.d.ts
+216 silly gunzTarPerm extractEntry esm/src/route_definition.d.ts
+217 silly gunzTarPerm extractEntry esm/src/directives/router_link.js
+218 silly gunzTarPerm extractEntry esm/src/directives/router_outlet.js
+219 silly gunzTarPerm extractEntry esm/src/directives/router_link.d.ts
+220 silly gunzTarPerm extractEntry esm/src/directives/router_link.js.map
+221 silly gunzTarPerm extractEntry esm/src/directives/router_outlet.d.ts
+222 silly gunzTarPerm extractEntry esm/src/directives/router_outlet.js.map
+223 silly gunzTarPerm extractEntry esm/src/route_definition.js.map
+224 silly gunzTarPerm extractEntry esm/src/route_registry.d.ts
+225 silly gunzTarPerm extractEntry esm/src/instruction.js.map
+226 silly gunzTarPerm extractEntry esm/src/route_registry.js.map
+227 silly gunzTarPerm extractEntry esm/src/facade/exception_handler.js
+228 silly gunzTarPerm extractEntry esm/src/facade/base_wrapped_exception.js
+229 silly gunzTarPerm extractEntry esm/src/facade/collection.js
+230 silly gunzTarPerm extractEntry esm/src/facade/async.js
+231 silly gunzTarPerm extractEntry esm/src/facade/exceptions.js
+232 silly gunzTarPerm extractEntry esm/src/facade/lang.js
+233 silly gunzTarPerm extractEntry esm/src/facade/promise.js
+234 silly gunzTarPerm extractEntry esm/src/facade/async.js.map
+235 silly gunzTarPerm extractEntry esm/src/facade/collection.js.map
+236 silly gunzTarPerm extractEntry esm/src/facade/exception_handler.d.ts
+237 silly gunzTarPerm extractEntry esm/src/facade/base_wrapped_exception.d.ts
+238 silly gunzTarPerm extractEntry esm/src/facade/exception_handler.js.map
+239 silly gunzTarPerm extractEntry esm/src/facade/exceptions.d.ts
+240 silly gunzTarPerm extractEntry esm/src/facade/async.d.ts
+241 silly gunzTarPerm extractEntry esm/src/facade/exceptions.js.map
+242 silly gunzTarPerm extractEntry esm/src/facade/lang.d.ts
+243 silly gunzTarPerm extractEntry esm/src/facade/base_wrapped_exception.js.map
+244 silly gunzTarPerm extractEntry esm/src/facade/lang.js.map
+245 silly gunzTarPerm extractEntry esm/src/facade/promise.d.ts
+246 silly gunzTarPerm extractEntry esm/src/facade/collection.d.ts
+247 silly gunzTarPerm extractEntry esm/src/facade/promise.js.map
+248 silly gunzTarPerm extractEntry esm/src/interfaces.d.ts
+249 silly gunzTarPerm extractEntry esm/src/router.js.map
+250 silly gunzTarPerm extractEntry esm/src/router_providers.d.ts
+251 silly gunzTarPerm extractEntry esm/src/instruction.d.ts
+252 silly gunzTarPerm extractEntry esm/src/router_providers.js.map
+253 silly gunzTarPerm extractEntry esm/src/router_providers_common.d.ts
+254 silly gunzTarPerm extractEntry esm/src/interfaces.js.map
+255 silly gunzTarPerm extractEntry esm/src/router_providers_common.js.map
+256 silly gunzTarPerm extractEntry esm/src/rules/rule_set.js
+257 silly gunzTarPerm extractEntry esm/src/rules/rules.js
+258 silly gunzTarPerm extractEntry esm/src/rules/route_handlers/async_route_handler.js
+259 silly gunzTarPerm extractEntry esm/src/rules/route_handlers/route_handler.js
+260 silly gunzTarPerm extractEntry esm/src/rules/route_handlers/sync_route_handler.js
+261 silly gunzTarPerm extractEntry esm/src/rules/route_handlers/async_route_handler.d.ts
+262 silly gunzTarPerm extractEntry esm/src/rules/route_handlers/async_route_handler.js.map
+263 silly gunzTarPerm extractEntry esm/src/rules/route_handlers/route_handler.d.ts
+264 silly gunzTarPerm extractEntry esm/src/rules/route_handlers/route_handler.js.map
+265 silly gunzTarPerm extractEntry esm/src/rules/route_handlers/sync_route_handler.d.ts
+266 silly gunzTarPerm extractEntry esm/src/rules/route_handlers/sync_route_handler.js.map
+267 silly gunzTarPerm extractEntry esm/src/rules/route_paths/param_route_path.js
+268 silly gunzTarPerm extractEntry esm/src/rules/route_paths/regex_route_path.js
+269 silly gunzTarPerm extractEntry esm/src/rules/route_paths/route_path.js
+270 silly gunzTarPerm extractEntry esm/src/rules/route_paths/param_route_path.d.ts
+271 silly gunzTarPerm extractEntry esm/src/rules/route_paths/param_route_path.js.map
+272 silly gunzTarPerm extractEntry esm/src/rules/route_paths/regex_route_path.d.ts
+273 silly gunzTarPerm extractEntry esm/src/rules/route_paths/regex_route_path.js.map
+274 silly gunzTarPerm extractEntry esm/src/rules/route_paths/route_path.d.ts
+275 silly gunzTarPerm extractEntry esm/src/rules/route_paths/route_path.js.map
+276 silly gunzTarPerm extractEntry esm/src/rules/rule_set.d.ts
+277 silly gunzTarPerm extractEntry esm/src/rules/rule_set.js.map
+278 silly gunzTarPerm extractEntry esm/src/rules/rules.d.ts
+279 silly gunzTarPerm extractEntry esm/src/rules/rules.js.map
+280 silly gunzTarPerm extractEntry esm/src/url_parser.d.ts
+281 silly gunzTarPerm extractEntry esm/src/lifecycle/lifecycle_annotations.js
+282 silly gunzTarPerm extractEntry esm/src/lifecycle/lifecycle_annotations_impl.js
+283 silly gunzTarPerm extractEntry esm/src/lifecycle/route_lifecycle_reflector.js
+284 silly gunzTarPerm extractEntry esm/src/lifecycle/lifecycle_annotations.d.ts
+285 silly gunzTarPerm extractEntry esm/src/lifecycle/lifecycle_annotations.js.map
+286 silly gunzTarPerm extractEntry esm/src/lifecycle/lifecycle_annotations_impl.d.ts
+287 silly gunzTarPerm extractEntry esm/src/lifecycle/lifecycle_annotations_impl.js.map
+288 silly gunzTarPerm extractEntry esm/src/lifecycle/route_lifecycle_reflector.d.ts
+289 silly gunzTarPerm extractEntry esm/src/lifecycle/route_lifecycle_reflector.js.map
+290 silly gunzTarPerm extractEntry esm/src/url_parser.js.map
+291 silly gunzTarPerm extractEntry esm/src/utils.d.ts
+292 silly gunzTarPerm extractEntry esm/src/route_config/route_config_decorator.js
+293 silly gunzTarPerm extractEntry esm/src/route_config/route_config_impl.js
+294 silly gunzTarPerm extractEntry esm/src/route_config/route_config_normalizer.js
+295 silly gunzTarPerm extractEntry esm/src/route_config/route_config_decorator.d.ts
+296 silly gunzTarPerm extractEntry esm/src/route_config/route_config_decorator.js.map
+297 silly gunzTarPerm extractEntry esm/src/route_config/route_config_impl.d.ts
+298 silly gunzTarPerm extractEntry esm/src/route_config/route_config_impl.js.map
+299 silly gunzTarPerm extractEntry esm/src/route_config/route_config_normalizer.d.ts
+300 silly gunzTarPerm extractEntry esm/src/route_config/route_config_normalizer.js.map
+301 silly gunzTarPerm extractEntry esm/src/utils.js.map
+302 silly gunzTarPerm extractEntry esm/testing.d.ts
+303 silly gunzTarPerm extractEntry esm/core_private.d.ts
+304 silly gunzTarPerm extractEntry esm/testing.js.map
+305 silly gunzTarPerm extractEntry testing.js.map
+306 verbose write writing to /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated/package.json
+307 info preinstall @angular/router-deprecated@2.0.0-rc.2
+308 verbose readDependencies loading dependencies from /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated/package.json
+309 verbose readDependencies loading dependencies from /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated/package.json
+310 silly install resolved []
+311 verbose about to build /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated
+312 info build /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated
+313 info linkStuff @angular/router-deprecated@2.0.0-rc.2
+314 silly linkStuff @angular/router-deprecated@2.0.0-rc.2 has /Users/peterjeffryes/Documents/socially/node_modules as its parent node_modules
+315 verbose linkBins @angular/router-deprecated@2.0.0-rc.2
+316 verbose linkMans @angular/router-deprecated@2.0.0-rc.2
+317 verbose rebuildBundles @angular/router-deprecated@2.0.0-rc.2
+318 info install @angular/router-deprecated@2.0.0-rc.2
+319 info postinstall @angular/router-deprecated@2.0.0-rc.2
+320 verbose unlock done using /Users/peterjeffryes/.npm/_locks/angular-router-deprecate-f2866d511428923a.lock for /Users/peterjeffryes/Documents/socially/node_modules/@angular/router-deprecated
+321 verbose validateInstall loading /Users/peterjeffryes/Documents/socially/package.json for validation
+322 verbose stack Error: The package @angular/core@2.0.0-rc.3 does not satisfy its siblings' peerDependencies requirements!
+322 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+322 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+322 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+322 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+322 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+322 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+322 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+322 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+322 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+322 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+323 verbose cwd /Users/peterjeffryes/Documents/socially
+324 error Darwin 15.5.0
+325 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "@angular/router-deprecated" "--save"
+326 error node v4.4.1
+327 error npm  v2.14.20
+328 error code EPEERINVALID
+329 error peerinvalid The package @angular/core@2.0.0-rc.3 does not satisfy its siblings' peerDependencies requirements!
+329 error peerinvalid Peer @angular/common@2.0.0-rc.3 wants @angular/core@2.0.0-rc.3
+329 error peerinvalid Peer @angular/compiler@2.0.0-rc.3 wants @angular/core@2.0.0-rc.3
+329 error peerinvalid Peer @angular/platform-browser@2.0.0-rc.3 wants @angular/core@2.0.0-rc.3
+329 error peerinvalid Peer @angular/platform-browser-dynamic@2.0.0-rc.3 wants @angular/core@2.0.0-rc.3
+329 error peerinvalid Peer @angular/router-deprecated@2.0.0-rc.2 wants @angular/core@^2.0.0-rc
+329 error peerinvalid Peer angular2-meteor@0.5.5 wants @angular/core@2.0.0-rc.1
+330 verbose exit [ 1, true ]
